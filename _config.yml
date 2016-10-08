@@ -32,13 +32,13 @@ share:
 
 urls:
     - text: About Me
-      url: /vibrantabhi19.github.io/about/
+      url: /about/
     - text: Projects
-      url: /vibrantabhi19.github.io/projects/
+      url: /projects/
     - text: Github
       url: https://github.com/vibrantabhi19
     - text: XML Feed
-      url: /vibrantabhi19.github.io/feed.xml
+      url: /feed.xml
 
 url: "https://vibrantabhi19.github.io"
 baseurl: ""
