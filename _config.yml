@@ -32,16 +32,16 @@ share:
 
 urls:
     - text: About Me
-      url: /blog2/about/
+      url: /about/
     - text: Projects
-      url: /blog2/projects/
+      url: /projects/
     - text: Github
       url: https://github.com/vibrantabhi19
     - text: XML Feed
-      url: /blog2/feed.xml
+      url: /feed.xml
 
 url: "https://vibrantabhi19.github.io"
-baseurl: "/blog2"
+baseurl: ""
 paginate: 20
 per_page: 20
 paginate_path: "/page:num/"
