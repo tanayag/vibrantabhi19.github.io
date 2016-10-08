@@ -1,0 +1,51 @@
+title: Blog
+description: My Personal Blog
+author: Abhishek Kumar
+github: https://github.com/vibrantabhi19
+about: I am freelance developer and an open source enthusiast. Currently doing my graduation in Computer Science from Shri Mata Vaishno Devi University, India.
+disqus_shortname: stackproblems
+google_analytics: UA-XXXXXXXX-Y
+
+enableTags: true
+tagarray: []
+
+collections:
+  project:
+    output: true
+    permalink: /project/:path/
+
+social:
+    - icon: fa-facebook
+      link: "https://www.facebook.com/vibrantabhi"
+    - icon: fa-skype
+      link: "#"
+    - icon: fa-twitter
+      link: "https://twitter.com/abhi_kumar07"
+    - icon: fa-linkedin
+      link: "https://in.linkedin.com/in/abhishek-kumar-74299887"
+    - icon: fa-stack-exchange
+      link: "#"
+
+share:
+  twitter_username: abhi_kumar07
+  fb_appid: 1749788565247320
+
+urls:
+    - text: About Me
+      url: /blog2/about/
+    - text: Projects
+      url: /blog2/projects/
+    - text: Github
+      url: https://github.com/vibrantabhi19
+    - text: XML Feed
+      url: /blog2/feed.xml
+
+url: "https://vibrantabhi19.github.io"
+baseurl: "/blog2"
+paginate: 20
+per_page: 20
+paginate_path: "/page:num/"
+markdown: kramdown
+gems:
+  - jekyll-paginate
+  - jekyll-gist
